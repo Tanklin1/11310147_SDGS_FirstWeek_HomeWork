@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>11310147</title>
+</head>
+<body>
+    <h1>個人資料</h1>
+    <form>
+        <p>*姓名: <input type="text" name="userName" size="40" required> </p>
+        <p>密碼: <input type="text" name="userMail" size="40" > </p>
+        <p>收入:
+            <input type="radio" name="userAge" value="age1"> 3000以下
+            <input type="radio" name="userAge" value="age2" checked> 3000~5000
+            <input type="radio" name="userAge" value="age3"> 5000~7000
+            <input type="radio" name="userAge" value="age4"> above 7000
+            <p>修過的課程:
+                <select name="userNumber[]" size="4" multiple>
+                    <option value="程式設計">程式設計</option>
+                    <option value="系統分析">系統分析</option>
+                    <option value="Linux">Linux</option>
+                    <option value="Windows">Windows</option>
+                </select>
+            </p>    
+            <p>建議?
+                <textarea name="userTroble" cols="45" rows="4" ></textarea>
+            </p>
+    </form>
+    <input type="submit" value="提交">
+    <input type="reset" value="重設">
+    
+
+</body>
+</html>
